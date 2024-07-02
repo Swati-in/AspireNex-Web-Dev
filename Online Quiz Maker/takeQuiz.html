@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Take Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js></script>
+<script src=https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.fog.min.js></script>
+<body id="body">
+    <div id="quiz-taker">
+        <h2>Select a Quiz</h2>
+        <select id="quiz-list" onchange="startQuiz()"></select>
+    </div>
+    <div id="quiz-display" style="display: none;">
+        <h2 id="quiz-title"></h2>
+        <div id="quiz-questions"></div>
+        <button onclick="submitQuiz()">Submit Quiz</button>
+        <div id="quiz-results" style="display: none;">
+            <h2>Your Results</h2>
+            <p id="score"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body><script>
+    VANTA.FOG({
+      el: "#body",
+      mouseControls: true,
+      touchControls: true,
+      gyroControls: false,
+      minHeight: 200.00,
+      minWidth: 200.00,
+      highlightColor: 0xffd258,
+      midtoneColor: 0xf96a6a,
+      lowlightColor: 0x8e00ff,
+      baseColor: 0xfffbfb,
+      blurFactor: 0.58,
+      speed: 1.70,
+      zoom: 1.70
+    })
+    </script>
+</html>

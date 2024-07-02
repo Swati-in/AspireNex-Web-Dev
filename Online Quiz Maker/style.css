@@ -1,0 +1,165 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+   
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;min-height:100vh;
+    
+}
+
+h2 {
+    color: #333;
+}
+
+/* Home Page Styles */
+#home {
+    text-align: center;
+    background: rgb(187,140,218);
+    background: radial-gradient(circle, rgba(187,140,218,1)
+ 0%, rgba(241,102,102,1) 50%, rgba(245,216,129,1) 100%);
+    padding: 100px;
+    margin: 200px;
+    margin: bottom 250px;
+    border: 1px solid #000000;
+    
+    
+}
+
+#home h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+#home button {
+    font-size: 1em;
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#home button:hover {
+    background-color: #0056b3;
+}
+
+/* Quiz Taker Page Styles */
+#quiz-taker, #quiz-display {
+    width: 60%;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin-top: 50px;
+    text-align: center;
+}
+
+#quiz-taker select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 1em;
+}
+
+#quiz-display h2 {
+    margin-bottom: 20px;
+}
+
+#quiz-questions {
+    text-align: left;
+}
+
+#quiz-questions .question-block {
+    margin-bottom: 20px;
+}
+
+#quiz-questions .question-block input[type="text"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#quiz-display button {
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#quiz-display button:hover {
+    background-color: #0056b3;
+}
+
+#quiz-results {
+    margin-top: 20px;
+}
+
+/* Quiz Creator Page Styles */
+#quiz-creator {
+    width: 60%;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin-top: 50px;
+    text-align: center;
+}
+
+#quiz-creator input[type="text"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#question-container {
+    text-align: left;
+}
+
+.question-block {
+    margin-bottom: 20px;
+}
+
+.question-block input[type="text"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#quiz-creator button {
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#quiz-creator button:hover {
+    background-color: #0056b3;
+}

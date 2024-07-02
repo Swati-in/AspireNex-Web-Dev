@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Quiz Maker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="body">
+    <div id="home">
+        <h2>Welcome to Online Quiz Maker</h2>
+        <button onclick="location.href='createQuiz.html'">Create Quiz</button>
+        <button onclick="location.href='takeQuiz.html'">Take Quiz</button>
+    </div>
+    
+</body>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js></script>
+<script src=https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.fog.min.js></script>
+    <script>
+    VANTA.FOG({
+      el: "#body",
+      mouseControls: true,
+      touchControls: true,
+      gyroControls: false,
+      minHeight: 200.00,
+      minWidth: 200.00,
+      highlightColor: 0xffd258,
+      midtoneColor: 0xf96a6a,
+      lowlightColor: 0x8e00ff,
+      baseColor: 0xfffbfb,
+      blurFactor: 0.58,
+      speed: 1.70,
+      zoom: 1.70
+    })
+    </script>
+</html>
